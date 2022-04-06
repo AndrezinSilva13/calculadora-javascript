@@ -1,0 +1,169 @@
+/*André G. Silva*/
+
+html {
+	height: 100%;
+	width: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 24%, #CCE);
+	background-size: cover;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:visited {
+	color: rgb(255, 0, 170);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: auto;
+	min-width: 0px;
+	max-width: 3000px;
+}
+
+.calculadora {
+	margin: auto;
+	margin-top: 30px;
+	position: center;
+	width: 410px;
+	height: 450px;
+	background-image: radial-gradient(ellipse, rgb(20, 20, 20) 24%, rgb(14, 14, 14));
+	border-radius: 10%;
+	display: flex;
+
+}
+
+input::placeholder {
+	color: red;
+}
+
+.title {
+	color: red;
+	font-size: 220%;
+	text-align: center;
+}
+
+.title:hover {
+	zoom: 110%;
+	color: orangered;
+}
+
+#result {
+	width: 350px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 25px;
+	font-size: 300%;
+	text-align: center;
+	color: red;
+	border-radius: 30%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+}
+
+#x {
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 170%;
+	text-align: center;
+	color: red;
+	border-radius: 15%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+}
+
+#operacoes {
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 150%;
+	text-align: center;
+	color: red;
+	border-radius: 15%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+}
+
+#y {
+	width: 300px;
+	height: 30px;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 170%;
+	text-align: center;
+	color: red;
+	border-radius: 15%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+}
+
+#calcular {
+	width: 180px;
+	height: 40px;
+	color: red;
+	border-radius: 15%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+	font-size: 150%;
+	margin-left: 25px;
+	margin-top: 70px;
+}
+
+#limpar {
+	width: 180px;
+	height: 40px;
+	color: red;
+	border-radius: 15%;
+	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+	font-size: 150%;
+
+}
+
+.credits {
+	margin-top: 20px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: red;
+	text-align: center;
+}
+
+.name {
+	color: rgb(255, 0, 170);
+	margin-top: 10px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.name:hover {
+	zoom: 150%;
+}
+
+.links {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.instaImage {
+	width: 45px;
+	height: 45px;
+}
+
+.faceImage {
+	width: 45px;
+	height: 45px;
+}
+
+.twiterImage {
+	width: 45px;
+	height: 45px;
+}

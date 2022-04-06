@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="André G. Silva">
+    <meta name="description" content="Calculadora Projeto Com JavaScript">
+    <meta name="keywords" content="Calculadora, JS, JavaScript, CSS, HTML">
+    <script src="js/calculadora.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="img/iconPage.png" type="image/x-icon" rel="icon">
+    <title>Calculadora JS</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Calculadora JavaScript</h1>
+    </header>
+
+    <div class="calculadora">
+        <main>
+
+
+            <form>
+                <input id="result" type="text" disabled="" /> <br>
+                <input id="x" type="number" name="x" placeholder="Insira o 1º número"> <br>
+                <select id="operacoes">
+                    <option value="">Escolha Uma Opção</option>
+                    <option value="+">Adição</option>
+                    <option value="-">Subtração</option>
+                    <option value="/">Divisão</option>
+                    <option value="*">Multiplicação</option>
+                    <option value="**">Potenciação</option>
+                    <option value="%">Resto</option>
+                </select> <br>
+                <input id="y" type="number" name="y" placeholder="Insira o 2º número"><br>
+                <input id="calcular" type="button" value="Calcular" onclick="operacao()" />
+                <input id="limpar" type="reset" value="Limpar" />
+            </form>
+        </main>
+    </div>
+    <footer class="">
+        <p class="credits">
+            &copy; Todos os direitos reservados</p>
+        <p class="name">André G. Silva</p>
+
+        <p class="links"><a href="https://www.instagram.com/andrex__gs/">
+                <img src="img/instaImage.png" alt="Insta" class="instaImage">
+            </a>
+            <a href="https://www.facebook.com/andre.gonsalves.54943">
+                <img src="img/faceImage.png" alt="Face" class="faceImage">
+            </a>
+            <a href="https://twitter.com/GsAndrex">
+                <img src="img/twiterImage.png" alt="Twiter" class="twiterImage">
+            </a>
+        </p>
+
+    </footer>
+</body>
+
+</html>
