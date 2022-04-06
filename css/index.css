@@ -10,6 +10,20 @@ html {
 
 }
 
+@keyframes RGB{
+	0%{
+		color: red;
+	}
+
+	50%{
+		color: green;
+	}
+
+	100%{
+		color: blue;
+	}
+}
+
 a:link {
 	text-decoration: none;
 	color: #FFF;
@@ -30,7 +44,7 @@ body {
 	max-width: 3000px;
 }
 
-.calculadora {
+body div.calculadora {
 	margin: auto;
 	margin-top: 30px;
 	position: center;
@@ -46,18 +60,15 @@ input::placeholder {
 	color: red;
 }
 
-.title {
-	color: red;
+header h1.title {
+	animation-name: RGB;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 	font-size: 220%;
 	text-align: center;
 }
 
-.title:hover {
-	zoom: 110%;
-	color: orangered;
-}
-
-#result {
+main input#result {
 	width: 350px;
 	height: 60px;
 	margin-top: 30px;
@@ -69,7 +80,7 @@ input::placeholder {
 	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
 }
 
-#x {
+main input#x {
 	width: 300px;
 	height: 30px;
 	margin-left: 50px;
@@ -81,7 +92,7 @@ input::placeholder {
 	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
 }
 
-#operacoes {
+main select#operacoes {
 	width: 300px;
 	height: 30px;
 	margin-left: 50px;
@@ -91,9 +102,10 @@ input::placeholder {
 	color: red;
 	border-radius: 15%;
 	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
+	cursor: pointer;
 }
 
-#y {
+main input#y {
 	width: 300px;
 	height: 30px;
 	margin-left: 50px;
@@ -105,7 +117,7 @@ input::placeholder {
 	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
 }
 
-#calcular {
+main input#calcular {
 	width: 180px;
 	height: 40px;
 	color: red;
@@ -114,19 +126,20 @@ input::placeholder {
 	font-size: 150%;
 	margin-left: 25px;
 	margin-top: 70px;
+	cursor: pointer;
 }
 
-#limpar {
+main input#limpar {
 	width: 180px;
 	height: 40px;
 	color: red;
 	border-radius: 15%;
 	background: radial-gradient(circle, #fff 24%, rgb(137, 137, 243));
 	font-size: 150%;
-
+	cursor: pointer;
 }
 
-.credits {
+footer p.credits {
 	margin-top: 20px;
 	left: 0;
 	bottom: 0;
@@ -135,7 +148,7 @@ input::placeholder {
 	text-align: center;
 }
 
-.name {
+footer p.name {
 	color: rgb(255, 0, 170);
 	margin-top: 10px;
 	left: 0;
@@ -144,26 +157,26 @@ input::placeholder {
 	text-align: center;
 }
 
-.name:hover {
+footer p.name:hover {
 	zoom: 150%;
 }
 
-.links {
+footer p.links {
 	text-align: center;
 	margin-top: 10px;
 }
 
-.instaImage {
+footer img.instaImage {
 	width: 45px;
 	height: 45px;
 }
 
-.faceImage {
+footer img.faceImage {
 	width: 45px;
 	height: 45px;
 }
 
-.twiterImage {
+footer img.twiterImage {
 	width: 45px;
 	height: 45px;
 }
